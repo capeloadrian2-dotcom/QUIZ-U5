@@ -1,0 +1,243 @@
+<!-- QUIZ UNIDAD 5 — VELOCIDAD Y CONDUCCIÓN SEGURA | Moodle compatible -->
+<div style="background:#0d2347;border-radius:16px;padding:36px 40px 32px;margin-bottom:20px;position:relative;overflow:hidden;font-family:Arial,sans-serif;">
+  <div style="position:absolute;top:-50px;right:-50px;width:220px;height:220px;border-radius:50%;background:rgba(83,74,183,0.2);pointer-events:none;"></div>
+  <div style="display:inline-block;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:#fff;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:6px 16px;border-radius:100px;margin-bottom:18px;">🎓 Quiz Interactivo — Educación Vial Tipo E</div>
+  <div style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#E8903A;margin-bottom:8px;">Unidad 5</div>
+  <div style="font-size:2rem;font-weight:900;color:#ffffff;line-height:1.1;margin-bottom:6px;font-family:Georgia,serif;">Velocidad y Conducción Segura</div>
+  <div style="font-size:14px;color:rgba(255,255,255,0.6);margin-bottom:20px;">Física aplicada, límites legales y manejo defensivo</div>
+  <div style="display:flex;flex-wrap:wrap;gap:10px;">
+    <span style="background:rgba(255,255,255,0.09);border:1px solid rgba(255,255,255,0.18);color:rgba(255,255,255,0.88);font-size:12px;padding:5px 14px;border-radius:100px;">🎯 Objetivo: Calcular y Gestionar</span>
+    <span style="background:rgba(255,255,255,0.09);border:1px solid rgba(255,255,255,0.18);color:rgba(255,255,255,0.88);font-size:12px;padding:5px 14px;border-radius:100px;">⚡ Dificultad: Intermedia</span>
+    <span style="background:rgba(255,255,255,0.09);border:1px solid rgba(255,255,255,0.18);color:rgba(255,255,255,0.88);font-size:12px;padding:5px 14px;border-radius:100px;">⏱️ Duración: 20–25 min</span>
+    <span style="background:rgba(255,255,255,0.09);border:1px solid rgba(255,255,255,0.18);color:rgba(255,255,255,0.88);font-size:12px;padding:5px 14px;border-radius:100px;">📊 12 preguntas · 120 pts</span>
+  </div>
+</div>
+<div style="background:#ffffff;border:1.5px solid #e4eaf2;border-radius:14px;padding:16px 24px;margin-bottom:20px;display:flex;align-items:center;justify-content:space-between;font-family:Arial,sans-serif;">
+  <div><div style="font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#888;margin-bottom:4px;">Tu puntaje</div><div style="font-size:28px;font-weight:800;color:#1B3A6B;" id="score">0 / 120 pts</div></div>
+  <div style="text-align:right;"><div style="font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#888;margin-bottom:4px;">Progreso</div><div style="font-size:14px;font-weight:700;color:#C45200;" id="progress">0 de 12 respondidas</div></div>
+</div>
+
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;font-family:Arial,sans-serif;"><div style="background:#1B3A6B;color:#fff;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:6px 16px;border-radius:100px;">🔥 Sección A — Calentamiento</div><div style="flex:1;height:1px;background:#e4eaf2;"></div><span style="font-size:11px;color:#aaa;">Preguntas 1–4 · 10 pts c/u</span></div>
+<div style="background:#EEEDFE;border-left:4px solid #534AB7;border-radius:0 12px 12px 0;padding:12px 18px;margin-bottom:20px;font-family:Arial,sans-serif;"><div style="font-size:13px;color:#3C3489;font-style:italic;">⚡ La velocidad mata o salva. ¡Comprobemos cuánto sabes sobre este tema crítico!</div></div>
+
+<div style="background:#ffffff;border:1.5px solid #e4eaf2;border-radius:16px;padding:24px;margin-bottom:16px;font-family:Arial,sans-serif;" id="q1">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;"><div style="background:#1B3A6B;color:#fff;font-size:12px;font-weight:700;width:30px;height:30px;border-radius:50%;text-align:center;line-height:30px;flex-shrink:0;">1</div><div style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#888;">Verdadero / Falso · 10 pts</div></div>
+  <div style="font-size:15px;font-weight:600;color:#1a2340;margin-bottom:18px;line-height:1.5;">Circular a velocidad excesiva es lo mismo que cometer exceso de velocidad: ambos conceptos significan superar el límite legal.</div>
+  <div style="display:flex;flex-direction:column;gap:10px;">
+    <button onclick="answer('q1','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">✅ Verdadero</button>
+    <button onclick="answer('q1','correct',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">❌ Falso</button>
+  </div>
+  <div id="q1-fb" style="display:none;margin-top:14px;padding:14px 16px;border-radius:12px;font-size:13px;line-height:1.6;"></div>
+</div>
+
+<div style="background:#ffffff;border:1.5px solid #e4eaf2;border-radius:16px;padding:24px;margin-bottom:16px;font-family:Arial,sans-serif;" id="q2">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;"><div style="background:#1B3A6B;color:#fff;font-size:12px;font-weight:700;width:30px;height:30px;border-radius:50%;text-align:center;line-height:30px;flex-shrink:0;">2</div><div style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#888;">Opción Múltiple · 10 pts</div></div>
+  <div style="font-size:15px;font-weight:600;color:#1a2340;margin-bottom:18px;line-height:1.5;">Según el manual, ¿cuál es la distancia total aproximada de frenado a 100 km/h en condiciones normales?</div>
+  <div style="display:flex;flex-direction:column;gap:10px;">
+    <button onclick="answer('q2','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">A) ~45 metros</button>
+    <button onclick="answer('q2','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">B) ~80 metros</button>
+    <button onclick="answer('q2','correct',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">C) ~130 metros</button>
+    <button onclick="answer('q2','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">D) ~190 metros</button>
+  </div>
+  <div id="q2-fb" style="display:none;margin-top:14px;padding:14px 16px;border-radius:12px;font-size:13px;line-height:1.6;"></div>
+</div>
+
+<div style="background:#ffffff;border:1.5px solid #e4eaf2;border-radius:16px;padding:24px;margin-bottom:16px;font-family:Arial,sans-serif;" id="q3">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;"><div style="background:#1B3A6B;color:#fff;font-size:12px;font-weight:700;width:30px;height:30px;border-radius:50%;text-align:center;line-height:30px;flex-shrink:0;">3</div><div style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#888;">Opción Múltiple · 10 pts</div></div>
+  <div style="font-size:15px;font-weight:600;color:#1a2340;margin-bottom:18px;line-height:1.5;">¿Cuál es la velocidad máxima para vehículos PESADOS en carretera rural de 2 carriles según la normativa referencial del manual?</div>
+  <div style="display:flex;flex-direction:column;gap:10px;">
+    <button onclick="answer('q3','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">A) 90 km/h</button>
+    <button onclick="answer('q3','correct',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">B) 70 km/h</button>
+    <button onclick="answer('q3','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">C) 80 km/h</button>
+    <button onclick="answer('q3','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">D) 100 km/h</button>
+  </div>
+  <div id="q3-fb" style="display:none;margin-top:14px;padding:14px 16px;border-radius:12px;font-size:13px;line-height:1.6;"></div>
+</div>
+
+<div style="background:#ffffff;border:1.5px solid #e4eaf2;border-radius:16px;padding:24px;margin-bottom:20px;font-family:Arial,sans-serif;" id="q4">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;"><div style="background:#1B3A6B;color:#fff;font-size:12px;font-weight:700;width:30px;height:30px;border-radius:50%;text-align:center;line-height:30px;flex-shrink:0;">4</div><div style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#888;">Verdadero / Falso · 10 pts</div></div>
+  <div style="font-size:15px;font-weight:600;color:#1a2340;margin-bottom:18px;line-height:1.5;">Un tracto-camión cargado puede necesitar el doble de la distancia de frenado comparado con un automóvil a la misma velocidad.</div>
+  <div style="display:flex;flex-direction:column;gap:10px;">
+    <button onclick="answer('q4','correct',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">✅ Verdadero</button>
+    <button onclick="answer('q4','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">❌ Falso</button>
+  </div>
+  <div id="q4-fb" style="display:none;margin-top:14px;padding:14px 16px;border-radius:12px;font-size:13px;line-height:1.6;"></div>
+</div>
+
+<div style="background:#1A5C38;border-radius:14px;padding:16px 22px;margin-bottom:24px;font-family:Arial,sans-serif;text-align:center;"><div style="font-size:14px;color:#ffffff;font-weight:600;">🌟 ¡Muy bien! Ahora pasamos a las técnicas de manejo defensivo.</div></div>
+
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;font-family:Arial,sans-serif;"><div style="background:#C45200;color:#fff;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:6px 16px;border-radius:100px;">🧠 Sección B — Comprensión</div><div style="flex:1;height:1px;background:#e4eaf2;"></div><span style="font-size:11px;color:#aaa;">Preguntas 5–8 · 10 pts c/u</span></div>
+<div style="background:#FDEBD0;border-left:4px solid #C45200;border-radius:0 12px 12px 0;padding:12px 18px;margin-bottom:20px;font-family:Arial,sans-serif;"><div style="font-size:13px;color:#993C1D;font-style:italic;">🔍 Manejo defensivo y factores de velocidad. ¡Aquí se construye el conductor profesional!</div></div>
+
+<div style="background:#ffffff;border:1.5px solid #e4eaf2;border-radius:16px;padding:24px;margin-bottom:16px;font-family:Arial,sans-serif;" id="q5">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;"><div style="background:#C45200;color:#fff;font-size:12px;font-weight:700;width:30px;height:30px;border-radius:50%;text-align:center;line-height:30px;flex-shrink:0;">5</div><div style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#888;">Relación de Columnas · 10 pts</div></div>
+  <div style="font-size:15px;font-weight:600;color:#1a2340;margin-bottom:6px;line-height:1.5;">Relaciona cada técnica de manejo defensivo con su aplicación práctica:</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:18px;">
+    <div style="background:#f7fafd;border-radius:12px;padding:14px;">
+      <div style="font-size:11px;font-weight:700;color:#2E6DA4;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px;">Técnica</div>
+      <div style="font-size:13px;color:#3a4a5c;padding:5px 0;border-bottom:1px solid #eef3f8;"><strong>A.</strong> Visión adelantada</div>
+      <div style="font-size:13px;color:#3a4a5c;padding:5px 0;border-bottom:1px solid #eef3f8;"><strong>B.</strong> Gestión de espacio</div>
+      <div style="font-size:13px;color:#3a4a5c;padding:5px 0;border-bottom:1px solid #eef3f8;"><strong>C.</strong> Control de puntos ciegos</div>
+      <div style="font-size:13px;color:#3a4a5c;padding:5px 0;"><strong>D.</strong> Freno motor en bajadas</div>
+    </div>
+    <div style="background:#f7fafd;border-radius:12px;padding:14px;">
+      <div style="font-size:11px;font-weight:700;color:#C45200;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px;">Aplicación</div>
+      <div style="font-size:13px;color:#3a4a5c;padding:5px 0;border-bottom:1px solid #eef3f8;"><strong>1.</strong> Evita sobrecalentar frenos en pendientes</div>
+      <div style="font-size:13px;color:#3a4a5c;padding:5px 0;border-bottom:1px solid #eef3f8;"><strong>2.</strong> Verificar espejos cada 5-8 segundos</div>
+      <div style="font-size:13px;color:#3a4a5c;padding:5px 0;border-bottom:1px solid #eef3f8;"><strong>3.</strong> Mínimo 4 segundos de distancia al vehículo de adelante</div>
+      <div style="font-size:13px;color:#3a4a5c;padding:5px 0;"><strong>4.</strong> Mirar mínimo 15 segundos hacia adelante</div>
+    </div>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:10px;">
+    <button onclick="answer('q5','correct',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">A-4, B-3, C-2, D-1</button>
+    <button onclick="answer('q5','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">A-3, B-4, C-1, D-2</button>
+    <button onclick="answer('q5','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">A-2, B-1, C-4, D-3</button>
+    <button onclick="answer('q5','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">A-4, B-2, C-3, D-1</button>
+  </div>
+  <div id="q5-fb" style="display:none;margin-top:14px;padding:14px 16px;border-radius:12px;font-size:13px;line-height:1.6;"></div>
+</div>
+
+<div style="background:#ffffff;border:1.5px solid #e4eaf2;border-radius:16px;padding:24px;margin-bottom:16px;font-family:Arial,sans-serif;" id="q6">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;"><div style="background:#C45200;color:#fff;font-size:12px;font-weight:700;width:30px;height:30px;border-radius:50%;text-align:center;line-height:30px;flex-shrink:0;">6</div><div style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#888;">Opción Múltiple · 10 pts</div></div>
+  <div style="font-size:15px;font-weight:600;color:#1a2340;margin-bottom:18px;line-height:1.5;">Según el manual, a 80 km/h el vehículo recorre aproximadamente ¿cuántos metros antes de que los frenos comiencen a actuar (distancia de reacción)?</div>
+  <div style="display:flex;flex-direction:column;gap:10px;">
+    <button onclick="answer('q6','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">A) ~10 metros</button>
+    <button onclick="answer('q6','correct',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">B) ~22 metros</button>
+    <button onclick="answer('q6','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">C) ~35 metros</button>
+    <button onclick="answer('q6','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">D) ~50 metros</button>
+  </div>
+  <div id="q6-fb" style="display:none;margin-top:14px;padding:14px 16px;border-radius:12px;font-size:13px;line-height:1.6;"></div>
+</div>
+
+<div style="background:#ffffff;border:1.5px solid #e4eaf2;border-radius:16px;padding:24px;margin-bottom:16px;font-family:Arial,sans-serif;" id="q7">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;"><div style="background:#C45200;color:#fff;font-size:12px;font-weight:700;width:30px;height:30px;border-radius:50%;text-align:center;line-height:30px;flex-shrink:0;">7</div><div style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#888;">Verdadero / Falso · 10 pts</div></div>
+  <div style="font-size:15px;font-weight:600;color:#1a2340;margin-bottom:18px;line-height:1.5;">La familiaridad con una ruta puede generar exceso de confianza y descuido en el conductor, según el manual.</div>
+  <div style="display:flex;flex-direction:column;gap:10px;">
+    <button onclick="answer('q7','correct',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">✅ Verdadero</button>
+    <button onclick="answer('q7','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">❌ Falso</button>
+  </div>
+  <div id="q7-fb" style="display:none;margin-top:14px;padding:14px 16px;border-radius:12px;font-size:13px;line-height:1.6;"></div>
+</div>
+
+<div style="background:#ffffff;border:1.5px solid #e4eaf2;border-radius:16px;padding:24px;margin-bottom:20px;font-family:Arial,sans-serif;" id="q8">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;"><div style="background:#C45200;color:#fff;font-size:12px;font-weight:700;width:30px;height:30px;border-radius:50%;text-align:center;line-height:30px;flex-shrink:0;">8</div><div style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#888;">Reflexión Rápida · 10 pts</div></div>
+  <div style="font-size:15px;font-weight:600;color:#1a2340;margin-bottom:18px;line-height:1.5;">¿A cuántos metros equivale un choque a 120 km/h en términos de caída vertical, según el dato del manual?</div>
+  <div style="display:flex;flex-direction:column;gap:10px;">
+    <button onclick="answer('q8','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">A) 30 metros de altura</button>
+    <button onclick="answer('q8','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">B) 40 metros de altura</button>
+    <button onclick="answer('q8','correct',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">C) 54 metros de altura</button>
+    <button onclick="answer('q8','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">D) 70 metros de altura</button>
+  </div>
+  <div id="q8-fb" style="display:none;margin-top:14px;padding:14px 16px;border-radius:12px;font-size:13px;line-height:1.6;"></div>
+</div>
+
+<div style="background:#534AB7;border-radius:14px;padding:16px 22px;margin-bottom:24px;font-family:Arial,sans-serif;text-align:center;"><div style="font-size:14px;color:#ffffff;font-weight:600;">🚛 ¡Ahora la prueba real! Situaciones en la vía donde la velocidad decide todo.</div></div>
+
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;font-family:Arial,sans-serif;"><div style="background:#1A5C38;color:#fff;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:6px 16px;border-radius:100px;">🚦 Sección C — Aplicación Práctica</div><div style="flex:1;height:1px;background:#e4eaf2;"></div><span style="font-size:11px;color:#aaa;">Preguntas 9–11 · 10 pts c/u</span></div>
+<div style="background:#D5F0E0;border-left:4px solid #1A5C38;border-radius:0 12px 12px 0;padding:12px 18px;margin-bottom:20px;font-family:Arial,sans-serif;"><div style="font-size:13px;color:#085041;font-style:italic;">🛣️ La velocidad no es solo un número: es una decisión que salva o cobra vidas.</div></div>
+
+<div style="background:#ffffff;border:1.5px solid #e4eaf2;border-radius:16px;padding:24px;margin-bottom:16px;font-family:Arial,sans-serif;" id="q9">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;"><div style="background:#1A5C38;color:#fff;font-size:12px;font-weight:700;width:30px;height:30px;border-radius:50%;text-align:center;line-height:30px;flex-shrink:0;">9</div><div style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#888;">Caso Real · 10 pts</div></div>
+  <div style="background:#f7fafd;border-radius:12px;padding:16px;margin-bottom:16px;border-left:4px solid #1A5C38;">
+    <div style="font-size:12px;font-weight:700;color:#1A5C38;margin-bottom:8px;">📍 SITUACIÓN — Vía Chone–Quevedo</div>
+    <div style="font-size:13px;color:#3a4a5c;line-height:1.7;">Pedro conduce su tracto-camión a 90 km/h. Ve una señal preventiva de curva a 200 metros. Decide no frenar porque "siempre pasa por ahí". En la curva hay un vehículo averiado.</div>
+  </div>
+  <div style="font-size:15px;font-weight:600;color:#1a2340;margin-bottom:18px;line-height:1.5;">¿Por qué la decisión de Pedro fue incorrecta desde el punto de vista del manejo defensivo?</div>
+  <div style="display:flex;flex-direction:column;gap:10px;">
+    <button onclick="answer('q9','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">A) Porque 90 km/h supera el límite en carretera rural para vehículos pesados</button>
+    <button onclick="answer('q9','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">B) Porque debió usar el freno motor antes de la curva</button>
+    <button onclick="answer('q9','correct',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">C) A 90 km/h necesita 130m para detenerse. Si hubiera reducido a 60 km/h al ver la señal, solo necesitaba 45m — suficiente margen para evitar el impacto</button>
+    <button onclick="answer('q9','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">D) Porque no avisó con la bocina al vehículo averiado</button>
+  </div>
+  <div id="q9-fb" style="display:none;margin-top:14px;padding:14px 16px;border-radius:12px;font-size:13px;line-height:1.6;"></div>
+</div>
+
+<div style="background:#ffffff;border:1.5px solid #e4eaf2;border-radius:16px;padding:24px;margin-bottom:16px;font-family:Arial,sans-serif;" id="q10">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;"><div style="background:#1A5C38;color:#fff;font-size:12px;font-weight:700;width:30px;height:30px;border-radius:50%;text-align:center;line-height:30px;flex-shrink:0;">10</div><div style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#888;">¿Qué harías si…? · 10 pts</div></div>
+  <div style="font-size:15px;font-weight:600;color:#1a2340;margin-bottom:18px;line-height:1.5;">Circulando a 90 km/h en carretera, comienza lluvia intensa. Según el manejo defensivo del manual, ¿cuántos segundos mínimo de distancia debes mantener con el vehículo de adelante?</div>
+  <div style="display:flex;flex-direction:column;gap:10px;">
+    <button onclick="answer('q10','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">A) 2 segundos</button>
+    <button onclick="answer('q10','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">B) 4 segundos (igual que en seco)</button>
+    <button onclick="answer('q10','correct',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">C) 8 segundos mínimo en lluvia, frente a los 4 segundos en condiciones normales</button>
+    <button onclick="answer('q10','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">D) 6 segundos</button>
+  </div>
+  <div id="q10-fb" style="display:none;margin-top:14px;padding:14px 16px;border-radius:12px;font-size:13px;line-height:1.6;"></div>
+</div>
+
+<div style="background:#ffffff;border:1.5px solid #e4eaf2;border-radius:16px;padding:24px;margin-bottom:20px;font-family:Arial,sans-serif;" id="q11">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;"><div style="background:#1A5C38;color:#fff;font-size:12px;font-weight:700;width:30px;height:30px;border-radius:50%;text-align:center;line-height:30px;flex-shrink:0;">11</div><div style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#888;">Aplicación · 10 pts</div></div>
+  <div style="font-size:15px;font-weight:600;color:#1a2340;margin-bottom:18px;line-height:1.5;">Un compañero argumenta: "En autopista a 90 km/h respeto el límite, entonces puedo mantener 2 segundos de distancia con el de adelante." ¿Por qué esta afirmación es incorrecta según el manual?</div>
+  <div style="display:flex;flex-direction:column;gap:10px;">
+    <button onclick="answer('q11','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">A) Es correcta: si respeta el límite, la distancia no importa</button>
+    <button onclick="answer('q11','correct',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">B) Incorrecta: un vehículo pesado necesita mínimo 4 segundos en seco. A 90 km/h, 2 segundos equivalen a ~50m, insuficiente cuando la distancia de frenado es ~130m</button>
+    <button onclick="answer('q11','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">C) La distancia se mide en metros, no en segundos para vehículos pesados</button>
+    <button onclick="answer('q11','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">D) Solo aplica cuando hay lluvia o niebla</button>
+  </div>
+  <div id="q11-fb" style="display:none;margin-top:14px;padding:14px 16px;border-radius:12px;font-size:13px;line-height:1.6;"></div>
+</div>
+
+<div style="background:#C45200;border-radius:14px;padding:16px 22px;margin-bottom:24px;font-family:Arial,sans-serif;text-align:center;"><div style="font-size:14px;color:#ffffff;font-weight:600;">⭐ ¡El gran desafío de velocidad! Integra física, normas y decisión profesional.</div></div>
+
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;font-family:Arial,sans-serif;"><div style="background:linear-gradient(135deg,#C45200,#1B3A6B);color:#fff;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:6px 16px;border-radius:100px;">🏆 BONUS — Pregunta Desafío</div><div style="flex:1;height:1px;background:#e4eaf2;"></div><span style="font-size:11px;color:#aaa;">Pregunta 12 · 20 pts</span></div>
+
+<div style="background:#ffffff;border:2px solid #1B3A6B;border-radius:16px;padding:24px;margin-bottom:20px;font-family:Arial,sans-serif;" id="q12">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;"><div style="background:linear-gradient(135deg,#C45200,#1B3A6B);color:#fff;font-size:12px;font-weight:700;width:34px;height:34px;border-radius:50%;text-align:center;line-height:34px;flex-shrink:0;">🏆</div><div style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#888;">Integración · 20 pts</div></div>
+  <div style="background:#f0f4ff;border-radius:12px;padding:16px;margin-bottom:16px;border-left:4px solid #1B3A6B;">
+    <div style="font-size:12px;font-weight:700;color:#1B3A6B;margin-bottom:8px;">🚨 ESCENARIO COMPLEJO</div>
+    <div style="font-size:13px;color:#3a4a5c;line-height:1.7;">Tracto-camión en autopista a 90 km/h (límite pesados). Lluvia intensa. Un automóvil frena abruptamente a 40 metros delante. El conductor lleva 4 horas manejando y está cansado. ¿Por qué es un escenario de alto riesgo?</div>
+  </div>
+  <div style="font-size:15px;font-weight:600;color:#1a2340;margin-bottom:18px;line-height:1.5;">¿Cuántos factores del manual de velocidad y conducción defensiva están deteriorando simultáneamente la seguridad en este escenario?</div>
+  <div style="display:flex;flex-direction:column;gap:10px;">
+    <button onclick="answer('q12','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">A) Uno: solo la lluvia incrementa la distancia de frenado</button>
+    <button onclick="answer('q12','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">B) Dos: lluvia y velocidad</button>
+    <button onclick="answer('q12','correct',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">C) Cuatro: (1) lluvia aumenta distancia de frenado 40%, (2) tracto-camión puede necesitar el doble que un auto, (3) fatiga eleva tiempo de reacción como el alcohol, (4) distancia de 40m es insuficiente cuando se necesitan 130m + 40% adicional por lluvia</button>
+    <button onclick="answer('q12','wrong',this)" style="background:#f7fafd;border:1.5px solid #e4eaf2;border-radius:12px;padding:13px 18px;font-size:14px;color:#3a4a5c;cursor:pointer;text-align:left;font-family:Arial,sans-serif;">D) Tres, pero el conductor Tipo E está preparado para manejarlo</button>
+  </div>
+  <div id="q12-fb" style="display:none;margin-top:14px;padding:14px 16px;border-radius:12px;font-size:13px;line-height:1.6;"></div>
+</div>
+
+<div id="result-panel" style="display:none;background:#0d2347;border-radius:16px;padding:32px;margin-top:20px;font-family:Arial,sans-serif;text-align:center;">
+  <div style="font-size:40px;margin-bottom:12px;" id="result-emoji">🏆</div>
+  <div style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#E8903A;margin-bottom:8px;">Resultado Final — Unidad 5</div>
+  <div style="font-size:2.2rem;font-weight:900;color:#ffffff;margin-bottom:8px;" id="result-score"></div>
+  <div style="font-size:15px;color:rgba(255,255,255,0.7);margin-bottom:20px;" id="result-msg"></div>
+  <div style="background:rgba(255,255,255,0.08);border-radius:12px;padding:16px;display:inline-block;"><div style="font-size:13px;color:rgba(255,255,255,0.6);">Sindicato de Choferes Profesionales de Manabí · Educación Vial 2025</div></div>
+</div>
+
+<script>
+var scores={},totalQ=12,fb={
+  q1:{correct:'✅ ¡Correcto! FALSO. Velocidad EXCESIVA = peligrosa para las condiciones, aunque no supere el límite. Exceso de velocidad = superar el límite legal. Son conceptos diferentes.',wrong:'❌ Son conceptos diferentes. Velocidad excesiva puede ser peligrosa aunque no supere el límite legal. Exceso de velocidad sí implica superar los límites establecidos.'},
+  q2:{correct:'✅ ¡Exacto! A 100 km/h la distancia total de frenado es ~130 metros. A 60 km/h son solo 45m. A 120 km/h llega a 190m.',wrong:'❌ A 100 km/h son ~130 metros. Recuerda: 60 km/h=45m, 80 km/h=80m, 100 km/h=130m, 120 km/h=190m.'},
+  q3:{correct:'✅ ¡Muy bien! Los vehículos pesados tienen límite de 70 km/h en carretera rural de 2 carriles, mientras los automóviles llegan a 90 km/h.',wrong:'❌ Para vehículos pesados en carretera rural es 70 km/h, no 90 km/h. Los límites son más restrictivos para vehículos pesados.'},
+  q4:{correct:'✅ ¡Correcto! El manual indica que un tracto-camión cargado puede necesitar el DOBLE de distancia de frenado comparado con un automóvil. El peso es determinante.',wrong:'❌ Es VERDADERO. El peso del tracto-camión cargado puede requerir el doble de distancia de frenado respecto a un automóvil. El peso multiplica la inercia.'},
+  q5:{correct:'✅ ¡Perfecto! A-4 (visión=15 seg adelante), B-3 (espacio=4 seg de distancia), C-2 (puntos ciegos=espejos cada 5-8 seg), D-1 (freno motor=pendientes).',wrong:'❌ A-4: visión adelantada=mirar 15 segundos. B-3: gestión de espacio=4 segundos mínimo. C-2: puntos ciegos=espejos cada 5-8 segundos. D-1: freno motor=pendientes.'},
+  q6:{correct:'✅ ¡Exacto! A 80 km/h el vehículo recorre ~22 metros antes de que los frenos actúen (distancia de reacción). A eso se suma la distancia de frenado real.',wrong:'❌ A 80 km/h, la distancia de reacción es ~22 metros. Este es el tramo que el vehículo recorre desde que el conductor detecta el peligro hasta que los frenos actúan.'},
+  q7:{correct:'✅ ¡Correcto! El manual lo indica expresamente: la familiaridad con la ruta puede generar exceso de confianza y descuido. ¡Una de las causas más subestimadas de accidentes!',wrong:'❌ Es VERDADERO. El manual advierte que la familiaridad genera exceso de confianza y descuido. Conocer bien una ruta no elimina sus peligros.'},
+  q8:{correct:'✅ ¡Impactante dato! Un choque a 120 km/h equivale a caer verticalmente desde 54 metros. Eso es aproximadamente un edificio de 18 pisos.',wrong:'❌ El manual indica que un choque a 120 km/h equivale a una caída vertical desde 54 metros. Un edificio de aproximadamente 18 pisos.'},
+  q9:{correct:'✅ ¡Perfecto análisis! A 90 km/h necesita 130m para detenerse. Si reduce a 60 km/h solo necesita 45m. La señal preventiva le dio 200m de anticipación: suficiente margen si hubiera actuado.',wrong:'❌ La clave es matemática: a 90 km/h necesita 130m para frenar. Si reduce a 60 km/h al ver la señal, solo necesita 45m. La señal estaba a 200m: suficiente margen para quien actúa con manejo defensivo.'},
+  q10:{correct:'✅ ¡Exacto! En lluvia la distancia mínima se dobla: de 4 segundos a 8 segundos. Esto compensa el 40% adicional en la distancia de frenado.',wrong:'❌ En lluvia, el manual indica 8 segundos mínimo de distancia, el doble que en seco (4 segundos). Esto compensa la reducción de adherencia y el aumento de la distancia de frenado.'},
+  q11:{correct:'✅ ¡Excelente! A 90 km/h, 2 segundos equivalen a ~50 metros. Pero la distancia de frenado del tracto-camión es ~130 metros. ¡Hay un déficit de 80 metros! 4 segundos mínimo son esenciales.',wrong:'❌ 2 segundos a 90 km/h son ~50 metros. La distancia de frenado del tracto-camión es ~130 metros. Faltarían 80 metros. El mínimo es 4 segundos en seco y 8 en lluvia.'},
+  q12:{correct:'✅ ¡DESAFÍO SUPERADO! Cuatro factores simultáneos: lluvia (+40% frenado), peso del tracto-camión (puede doblar distancia), fatiga (aumenta tiempo de reacción) y distancia insuficiente (40m vs 130m+40%). Un escenario de colisión casi inevitable.',wrong:'❌ Son CUATRO factores: (1) lluvia aumenta 40% la distancia de frenado, (2) tracto-camión puede necesitar el doble que un auto, (3) fatiga eleva el tiempo de reacción, (4) 40m de distancia es insuficiente cuando se necesitan +182m (130x1.4). La combinación es letal.'}
+};
+function answer(qId,result,btn){
+  if(scores[qId]!==undefined)return;
+  var ok=result==='correct',pts=qId==='q12'?20:10;
+  scores[qId]=ok?pts:0;
+  var card=document.getElementById(qId);
+  card.querySelectorAll('button').forEach(function(b){b.disabled=true;b.style.cursor='default';b.style.opacity='0.6';});
+  btn.style.opacity='1';btn.style.background=ok?'#D5F0E0':'#FCEBEB';btn.style.borderColor=ok?'#1A5C38':'#A32D2D';btn.style.color=ok?'#085041':'#791F1F';
+  var f=document.getElementById(qId+'-fb');f.style.display='block';f.style.background=ok?'#D5F0E0':'#FCEBEB';f.style.border='1px solid '+(ok?'#5DCAA5':'#F09595');f.style.color=ok?'#085041':'#791F1F';f.innerHTML=fb[qId][ok?'correct':'wrong'];
+  var tot=0,ans=0;for(var k in scores){tot+=scores[k];ans++;}
+  document.getElementById('score').innerText=tot+' / 120 pts';document.getElementById('progress').innerText=ans+' de 12 respondidas';
+  if(ans===totalQ){
+    var pct=Math.round((tot/120)*100),panel=document.getElementById('result-panel');panel.style.display='block';
+    document.getElementById('result-score').innerText=tot+' / 120 pts ('+pct+'%)';
+    var e,m;
+    if(pct>=90){e='🏆';m='¡Sobresaliente! Dominas la física de la conducción. Eres un maestro del manejo defensivo.';}
+    else if(pct>=75){e='⭐';m='¡Muy bien! Buen manejo de velocidad y distancias. Practica los cálculos de frenado para perfeccionarte.';}
+    else if(pct>=60){e='👍';m='Buen trabajo. Refuerza las distancias de frenado y las técnicas de manejo defensivo específicas para Tipo E.';}
+    else{e='📚';m='Repasa la Unidad 5. Los números de frenado y las técnicas defensivas son fundamentales para tu seguridad y la de los demás.';}
+    document.getElementById('result-emoji').innerText=e;document.getElementById('result-msg').innerText=m;panel.scrollIntoView({behavior:'smooth'});
+  }
+}
+</script>
